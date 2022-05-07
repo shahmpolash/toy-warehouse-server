@@ -49,6 +49,7 @@ async function run() {
             const updatedDoc = {
                 $set: {
                     name: updateToy.name,
+                    
                     details: updateToy.details,
                     price: updateToy.price,
                     quantity: updateToy.quantity,
